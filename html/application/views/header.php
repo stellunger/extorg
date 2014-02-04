@@ -44,7 +44,7 @@
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
 							<li><a href="<?php echo base_url(); ?>"><span>Главная</span></a></li>
-							<li><a href="<?php echo base_url(); ?>excavatory"><span>Экскаваторы</span></a></li>
+							<li><a href="<?php echo base_url(); ?>excavator"><span>Экскаваторы</span></a></li>
 							<li><a href="<?php echo base_url(); ?>drilling"><span>Установки бурения</span></a></li>
 							<li><a href="<?php echo base_url(); ?>about"><span>О компании</span></a></li>
 							<li><a href="<?php echo base_url(); ?>contacts"><span>Контакты</span></a></li>
