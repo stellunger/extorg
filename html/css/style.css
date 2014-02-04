@@ -1,0 +1,658 @@
+@import url(fonts/stylesheet.css);
+@import url(jquery.fancybox.css);
+body{
+
+}
+.container{
+max-width:983px;
+}
+.b-button1{
+display: inline-block;
+font: 16px 'NeoLight';
+text-decoration: none;
+color: #000;
+background: #ffbd20;
+vertical-align: top;
+height: 38px;
+line-height: 38px;
+padding: 0 20px;
+}
+.b-button1:hover{
+color:#000;
+background:#ffbd20;
+text-decoration:none;
+}
+
+.b-button3{
+display: inline-block;
+font: 24px 'NeoMedium';
+text-decoration: none;
+color: #000;
+background: #ffbd20;
+vertical-align: top;
+height: 39px;
+line-height: 34px;
+padding: 0 30px;
+text-transform: uppercase;
+margin-top: 17px;
+}
+.b-button3:hover{
+color: #000;
+background: #ffbd20;
+text-decoration:none;
+}
+.b-button4{
+display: inline-block;
+font: 18px 'NeoMedium';
+text-decoration: none;
+color: #000;
+background: #ffbd20;
+vertical-align: top;
+height: 28px;
+line-height: 29px;
+padding: 0 30px;
+text-transform: uppercase;
+margin-top: 13px;
+}
+.b-button4:hover{
+color: #000;
+background: #ffbd20;
+text-decoration:none;
+}
+h2{
+font:20px 'NeoBlod';
+font-weight:normal;
+margin:0;
+}
+
+/* ------------------------------------------ */
+/* Header */
+/* ------------------------------------------ */
+.b-body-header{
+background:url(../images/bg_header.jpg) center 0 repeat-x;
+height:522px;
+overflow: hidden;
+}
+.b-logo{
+font: 23px 'NeoBlod';
+text-transform: uppercase;
+margin-top: 40px;
+padding-left: 4px;
+}
+.b-logo a{
+color:#fec224;
+text-decoration:none;
+}
+.b-slogan{
+color: #fff;
+text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.75);
+font: 30px 'NeoBlod';
+text-transform: uppercase;
+text-align: center;
+padding-top: 20px;
+padding-left: 9px;
+}
+.b-body-header .b-button1{
+margin-top: 7px;
+}
+.b-cal-num{
+font: 30px 'NeoRegular';
+color:#fff;
+}
+.b-help{
+text-align: right;
+padding-top: 12px;
+padding-right: 2px;
+background: url(../images/cal_man.png) no-repeat 0 bottom;
+width: 343px;
+margin-left: -45px;
+height: 104px;
+}
+
+/* ------------------------------------------ */
+/* Menu */
+/* ------------------------------------------ */
+.b-menu{
+background:#000;
+font:16px 'NeoBlod';
+}
+.b-menu .navbar-default{
+background:none;
+border:none;
+}
+.b-menu .navbar-default .navbar-nav>.active>a,.b-menu .navbar-default .navbar-nav>.active>a:hover,.b-menu .navbar-default .navbar-nav>.active>a:focus{
+color: #dad8d8;
+background-color: transparent;
+}
+.b-menu .navbar-default .navbar-nav>.active>a span{
+display:inline-block;
+border-bottom:2px solid #dad8d8;
+padding-bottom: 5px;
+}
+
+.b-menu .navbar-default .navbar-nav>li>a{
+color: #dad8d8;
+padding: 20px 46px;
+padding-bottom: 0;
+}
+.b-title-menu-xs{
+color: #fff;
+margin-top: 24px;
+}
+.navbar-toggle{
+margin-top: 16px;
+margin-bottom: 0;
+}
+/* ------------------------------------------ */
+/* Details block */
+/* ------------------------------------------ */
+.b-details-block{
+background: #000;
+top: 423px;
+height: 103px;
+position:absolute;
+left:0;
+right:0;
+}
+.b-details-block .col-md-2:first-child{
+border:none;
+}
+.b-details-block .col-md-2{
+border-left: 1px solid #fff;
+margin-top: 23px;
+}
+.b-details-block .b-item{
+color: #fff;
+text-align: center;
+vertical-align: top;
+
+
+line-height: 19px;
+font:14px 'NeoLight';
+}
+/* ------------------------------------------ */
+/* Top from */
+/* ------------------------------------------ */
+.b-top-from{
+background: url(../images/bg_yellow.png);
+width: 237px;
+height: 236px;
+padding: 13px 30px;
+padding-top: 6px;
+}
+.b-top-from .b-title{
+font: 16px 'NeoLight';
+text-align: center;
+line-height: 19px;
+margin-bottom: 12px;
+}
+.b-top-from .b-button{
+text-align: center;
+margin-top: 12px;
+}
+.form-control{
+text-align: center;
+border-radius: 0;
+border: none;
+font: 14px 'NeoLight';
+height: 23px;
+
+}
+.b-item-form{
+margin-bottom: 8px;
+}
+.b-button2{
+background: #800000;
+border: none;
+font: 23px 'NeoBlod';
+border-radius: 0px;
+text-transform: uppercase;
+color: #ffbd20 !important;
+padding: 7px 21px;
+
+}
+/* ------------------------------------------ */
+/* Main img */
+/* ------------------------------------------ */
+.b-product-main{
+margin-top: 38px;
+}
+.b-product-main-block{
+border:1px solid #d8d8dc;
+border-radius:15px;
+background:#fff;
+text-align:center;
+padding-bottom:20px;
+margin-bottom:20px;
+}
+.b-product-main-block .b-img{
+padding-top: 17px;
+}
+.b-product-main-block .b-title{
+font: 21px 'NeoBlod';
+margin-top: 15px;
+}
+.b-product-main-block .b-link{
+margin-top: 6px;
+}
+.b-product-main-block .b-link a{
+color:#000;
+text-decoration:underline;
+font: 21px 'NeoLight';
+}
+/* ------------------------------------------ */
+/* Product slider */
+/* ------------------------------------------ */
+.b-product-slider {
+margin-top: 16px;
+}
+.carousel-control.left{
+background:url(../images/arrow1.png) no-repeat left center;
+width: 22px;
+}
+.carousel-control.right {
+background:url(../images/arrow2.png) no-repeat right center;
+width: 22px;
+}
+
+.b-product-slider h2{
+text-align:center;
+margin-bottom: 21px;
+}
+.b-product-slider .row{
+padding-left: 21px;
+padding-right: 22px;
+}
+.b-product-slider .row .col-md-3{
+
+}
+.b-slider-items{
+border: 1px solid #e8e8ea;
+text-align: center;
+padding: 0 20px;
+}
+.b-slider-items img{
+
+margin:0 auto;
+margin-top: 21px;
+}
+.b-slider-items .title{
+color: #000;
+font: 18px 'NeoLight';
+margin-top: 8px;
+line-height: 22px;
+}
+.b-slider-items .b-button4{
+}
+
+.b-slider-items .b-link{
+	margin-top: 7px;
+margin-bottom: 16px;
+}
+.b-slider-items .b-link a{
+color:#000;
+text-decoration:underline;
+font: 18px 'NeoLight';
+}
+
+/* ------------------------------------------ */
+/* Text slider */
+/* ------------------------------------------ */
+.b-text-slider{
+background: #fafbfb;
+margin-top: 28px;
+padding-top: 49px;
+padding-bottom: 33px;
+}
+.b-text-slider .row{
+padding-left: 18px;
+padding-right: 0;
+}
+.b-text-slider .row .col-md-4{
+padding-left: 14px;
+padding-right: 39px;
+}
+.b-text-slider .b-img{
+margin-top: 15px;
+margin-bottom: 13px;
+}
+.b-text-slider img{
+margin:auto;
+}
+.b-text-slider  p{
+line-height: 17px;
+}
+/* ------------------------------------------ */
+/* Main content */
+/* ------------------------------------------ */
+.b-main-content{
+padding-top: 39px;
+}
+.b-main-content h2{
+font-size: 23px;
+margin-bottom: 9px;
+}
+.b-main-content .col-md-7{
+padding-left: 11px;
+}
+.b-main-content p{
+font-size: 16px;
+line-height: 20px;
+margin-bottom: 8px;
+font: 14px 'NeoLight';
+}
+.b-main-content .col-md-5 p:first-child{
+margin-top: 0;
+}
+.b-main-content .col-md-5 p{
+margin-top: 84px;
+}
+.b-galery{
+background: #f7fafb;
+margin-bottom: 25px;
+margin-top: 16px;
+padding-top: 16px;
+padding-bottom: 49px;
+}
+.b-galery h2{
+font:17px  'NeoRegular';
+}
+.b-galery .carousel{
+margin-top: 15px;
+}
+.b-galery .carousel .row{
+padding-left: 15px;
+padding-right: 15px;
+}
+/* ------------------------------------------ */
+/* Contact */
+/* ------------------------------------------ */
+.b-contact-blcok{
+position: relative;
+min-height: 520px;
+margin-top: 4px;
+background:url(../images/map.jpg) no-repeat center 0;
+}
+.b-contact-data {
+position: relative;
+z-index:1;
+background:url(../images/bg_transparent.png);
+margin-left: 16px;
+}
+.b-contact-data .b-text{
+font: 21px 'NeoRegular';
+padding: 17px 33px;
+padding-right: 0;
+}
+.b-contact-data .b-text p{
+line-height: 25px;
+margin-bottom: 36px;
+}
+.b-map{
+text-align:center;
+position:absolute;
+left:0;
+top:0;
+right:0;
+}
+
+
+/* ------------------------------------------ */
+/* From bottom */
+/* ------------------------------------------ */
+.b-form-bottom-container{
+background:#ffbd20;
+margin-top: 28px;
+padding-bottom: 26px;
+}
+.b-form-bottom .b-title{
+font: 37px 'NeoLight';
+text-align: center;
+padding-top: 22px;
+padding-bottom: 24px;
+}
+.b-form-bottom  .row {
+padding-left: 74px;
+padding-right: 82px;
+margin-bottom: 29px;
+}
+.b-button{
+text-align:center;
+}
+/* ------------------------------------------ */
+/* Full product */
+/* ------------------------------------------ */
+.b-product-full a{
+border:1px solid #848282;
+display:inline-block;
+}
+h1{
+font:34px 'NeoBlod';
+color:#800000;
+line-height: 41px;
+margin-bottom: 16px;
+}
+.bproduct-desc{
+font:17px 'NeoRegular';
+line-height: 20px;
+}
+.b-product-full{
+padding-top: 9px;
+}
+.b-product-full .col-md-4{
+padding-left:0;
+padding-right:0;
+}
+
+.b-main-img{
+margin-top: 27px;
+}
+.b-main-gal{
+margin-top: 27px;
+}
+.b-main-gal a{
+display:inline-block;
+margin-bottom: 9px;
+margin-right:9px;
+}
+/* ------------------------------------------ */
+/* Characters block */
+/* ------------------------------------------ */
+.b-character{
+background:#f4f6f8;
+padding-bottom: 33px;
+padding-top: 54px;
+}
+.b-character table{
+margin-top: 15px;
+}
+.b-character .table>thead>tr>th,.b-character .table>tbody>tr>th,.b-character .table>tfoot>tr>th,.b-character .table>thead>tr>td,.b-character .table>tbody>tr>td,.b-character .table>tfoot>tr>td{
+background:#fafbfc;
+border:3px solid #f4f6f8;
+text-align:center;
+
+vertical-align:middle;
+padding: 10px 17px;
+}
+.b-character .table td{
+font:13px 'NeoLight';
+line-height: 14px;
+}
+.b-character .table>tbody>tr>th{
+font:14px 'NeoMedium';
+line-height: 14px;
+}
+.b-character-table{
+border-top:1px solid #d8dade;
+padding-top: 24px;
+
+}
+.b-character-table p{
+font:14px 'Helvetica';
+margin-bottom: 8px;	
+}
+/*.b-character-table strong{
+font:14px 'NeoMedium';
+}*/
+h4{
+font:17px 'NeoBlod';
+}
+.b-radius-block{
+border-radius: 15px;
+border: 1px solid #e3e4e8;
+padding: 5px 8px;
+margin-bottom:15px;
+}
+.b-ul{
+
+margin:0;
+padding:0;
+list-style:none;
+margin-top: 13px;
+}
+.b-ul li{
+background:url(../images/li.jpg) no-repeat left 6px;
+padding-left: 15px;
+margin-bottom: 2px;
+
+}
+.no-margin{
+margin-bottom:0;
+}
+.no-margin + ul{
+margin-top:0;
+}
+
+
+/* ------------------------------------------ */
+/* Footer */
+/* ------------------------------------------ */
+.b-bottom-from .b-logo a{
+color:#000;
+}
+.b-bottom-from .b-slogan{
+color:#000;
+text-shadow:none;
+}
+.b-bottom-from .b-help{
+background:none;
+}
+.b-bottom-from .b-cal-num {
+font: 30px 'NeoRegular';
+color: #000;
+}
+.b-bottom-from .row{
+padding-top: 8px;
+}
+/* ------------------------------------------ */
+/* Responsive style */
+/* ------------------------------------------ */
+@media (min-width: 1200px){
+.b-details-block .col-md-2 {
+width: 20%;
+}
+.b-main-content .col-md-7{
+width: 62%;
+}
+.b-main-content .col-md-5{
+width: 38%;
+padding-left: 0;
+}
+.b-product-full .col-md-2{
+padding-right: 0;
+padding-left: 30px;
+}
+.b-product-full .col-md-6{
+padding-left: 30px;
+}
+.b-character .table>thead>tr>th,.b-character .table>tbody>tr>th,.b-character .table>tfoot>tr>th,.b-character .table>thead>tr>td,.b-character .table>tbody>tr>td,.b-character .table>tfoot>tr>td{
+width:16.66666666666667%;
+}
+.b-radius-block{
+min-height: 525px;
+}
+.b-galery .carousel .col-md-2{
+width: 19.6%;
+padding-right: 0;
+padding-left: 15px;
+}
+}
+@media (max-width: 1200px){
+.b-menu .navbar-default .navbar-nav>li>a{
+padding: 20px 45px;
+padding-bottom: 0;
+}
+.b-details-block .col-md-2 {
+width: 20%;
+}
+.b-galery .carousel .col-md-2{
+width: 19.6%;
+padding-right: 0;
+padding-left: 15px;
+}
+
+}
+
+@media (max-width: 992px){
+.b-slogan{
+font: 21px 'NeoBlod';
+}
+.b-help{
+width: 328px;
+}	
+.b-menu .navbar-default .navbar-nav>li>a{
+padding: 20px 23px;
+padding-bottom: 0;
+}
+.b-slider-items{
+padding: 0 0px;
+}
+.b-button4{
+padding: 0 27px;
+}
+.b-galery .carousel .col-md-2{
+text-align:center;
+margin: auto;
+}
+
+.b-galery .carousel .col-md-2 a{
+display:inline-block;
+}
+
+}
+/* After 768px */
+@media (max-width: 768px){
+.b-logo{
+margin-top: 4px;
+text-align: center;
+}
+.b-help {
+margin: auto;
+position: relative;
+left: -44px;
+}
+.navbar-collapse{
+margin-top: 21px;
+}
+.b-top-from{
+padding: 2px 30px;
+padding-top: 2px;
+height: 204px;
+}
+.b-item-form {
+margin-bottom: 1px;
+}
+.b-galery .carousel .col-md-2 img{
+max-width: 178px;
+}
+.b-galery .carousel .col-md-2{
+width: auto;
+padding-right: 0;
+padding-left: 0;
+}
+}
+/* Before 768px */
+@media (min-width: 768px){
+
+}
+
