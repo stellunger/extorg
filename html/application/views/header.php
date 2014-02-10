@@ -88,7 +88,7 @@
 						<div class="b-item">Поставки в любой<br>регион России</div>
 					</div>
 					<div class="col-md-2 col-sm-2 col-xs-2">
-						<div class="b-item">Возможность<br>аренды техники</div>
+						<div class="b-item">Наличие<br>сертификата ISO9001</div>
 					</div>
 					<div class="col-md-2 col-sm-2 col-xs-2">
 						<div class="b-item">Качественное сервисное<br>обслуживание</div>
