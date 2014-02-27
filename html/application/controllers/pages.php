@@ -20,9 +20,32 @@ class Pages extends CI_Controller {
 			case 'excavator':
 				$data['title'] = 'Экскаваторы-планировщики на автомобильных шасси';
 				break;
-
+			case 'kamaz_53228':
+				$data['title'] = 'Экскаваторы-планировщики на базе шасси КамАЗ 53228';
+				break;
+			case 'kamaz_65111':
+				$data['title'] = 'Экскаваторы-планировщики на базе шасси КамАЗ 65111';
+				break;
+			case 'ural':
+				$data['title'] = 'Экскаваторы-планировщики на базе шасси Урал 4320';
+				break;
+			case 'man':
+				$data['title'] = 'Экскаваторы-планировщики на базе шасси MAN TGA 33.350';
+				break;
+			case 'maz_6303':
+				$data['title'] = 'Экскаваторы-планировщики на базе шасси МАЗ 6303';
+				break;
+			case 'maz_631705':
+				$data['title'] = 'Экскаваторы-планировщики на базе шасси МАЗ 631705';
+				break;
 			case 'drilling':
 				$data['title'] = 'Установки горизонтального направленного бурения';
+				break;
+			case 'iveco':
+				$data['title'] = 'Экскаваторы-планировщики на базе шасси Iveco';
+				break;
+			case 'volvo':
+				$data['title'] = 'Экскаваторы-планировщики на базе шасси Volvo';
 				break;
 
 			case 'about':
